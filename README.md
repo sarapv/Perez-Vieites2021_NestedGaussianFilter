@@ -7,6 +7,7 @@ In this repository is included MATLAB code of the NGFs introduced in [[1]](#refe
 * /UKF : implementation of an unscented Kalman filter (UKF) [[3]](#references) using state-augmentation techniques (i.e., extending the state vector or variables with the parameters, and adding some artificial dynamics to them).
 * /EnKF : implementation of an ensemble Kalman filter (EnKF) [[4]](#references) using state-augmentation techniques.
 
+The running file is **main_script.m**. It is necessary to add all the folders into the current MATLAB path in order to call the fuctions in them.
 
 # References
 [1] Pérez-Vieites, S., & Míguez, J. (2021). Nested Gaussian filters for recursive Bayesian inference and nonlinear tracking in state space models. Signal Processing, 189, 108295.
